@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Contenedor de la hoja de vida */
+.contenedor_hoja{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+
+/* Encabezado de la hoja de vida (Titulo e imagen)*/
+header{
+    height: 250px;
+    margin: 12px;
+    padding: 20px;
+}
+
+header h1{
+    text-align: center;
+}
+
+.titulo_seccion{
+    background-color: rgb(10, 10, 36);
+    color: white;
+    margin: 12px;
+    padding: 12px;
+    text-align: center;
+}
+
+.img{
+    text-align: center;
+    margin-top: 25px;
+}
+
+img{
+    height: 200px;
+    border: 0.2px solid black;
+}
+
+
+/* Codigo reutilizable de cada seccion (margin y padding) */
+.seccion{
+    margin: 6px;
+    padding: 12px;
+}
+
+
+/* Seccion de información personal (Tabla) */
+#informacion_personal{
+    height: 250px;
+}
+
+
+table{
+    margin-top: 15px;
+    width: 70%;
+    padding-left: 20px;
+}
+
+th{
+    padding: 6px;
+    
+}
+
+th, td{
+   text-align: left;
+}
+
+
+/* Perfil profesional */
+#perfil_profesional{
+    height: 200px;
+}
+
+.parrafo{
+    margin: 6px;
+    padding: 12px;
+    margin-top: 20px;
+}
+
+/* Informacion laboral */
+#informacion_laboral{
+    height: 250px;
+}
+
+.lista{
+    margin: 6px;
+    padding: 12px;
+    margin-top: 20px;
+}
+
+li{
+    padding: 6px;
+}
+
+/* Portafolio */
+#portafolio{
+    height: 150px;
+}
+
+.enlaces{
+    margin: 6px;
+    padding: 12px;
+    margin-top: 20px;
+}
+.enlaces a{
+    display: block;
+    text-decoration: none;
+    color: rgb(23, 23, 26);
+    padding: 6px;
+}
+
+
+/* Observaciones */
+textarea{
+    margin: 6px;
+    padding: 12px;
+    margin-top: 20px;
+    width: 90%;
+    height: 100px;
+}
+
+/* Boton */
+.boton{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 120px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
